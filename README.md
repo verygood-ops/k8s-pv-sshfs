@@ -16,7 +16,7 @@ $ docker run --rm \
 --env ROOT_PASSWORD=MyRootPW123 \
 # or use an RSA key
 # --env ROOT_AUTHORIZED_KEY="<some public key base64 string>" \
-gjyoung1974/alpine-sshd
+quay.io/verygoodsecurity/k8s-pv-sshfs
 ```
 ### Basic Kubernetes Usage
 See the file: k8s-webapp-with-sshfs.yml
@@ -34,10 +34,9 @@ sshfs root@<some_remote_server>:/web_app_files ~/web_app_files/ -o auto_cache,re
 }
 ```
 //TODO 
-Harden SSHD config
-
+Harden SSHD config more!
 
 ```
-2017 Gordon young gjyoung1974@gmail.com
+2018 VGS Security Operations
 ```
 
