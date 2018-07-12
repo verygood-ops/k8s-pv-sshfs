@@ -1,5 +1,5 @@
-## docker-sshfs: serve a Kubernetes persistent volume over SSH
-### Usecase: remotely mount a Persistent Volume via Fuse SSHFS
+## k8s-pv-sshfs: serve a Kubernetes persistent volume over SSH
+### Usecase: remotely mount a Persistent Volume via Fuse over SCP
 
 ### Overview
 Use this Dockerfile / -image to start a sshd-server upon a lightweight Alpine container.
